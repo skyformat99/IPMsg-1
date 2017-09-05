@@ -1,84 +1,84 @@
 (Japanese)
 ----------------------------------------------------------------------
-        IP Messenger �ʐM�v���g�R���d�l(�h���t�g10�Łj     1996/02/21
+        IP Messenger 捠怣僾儘僩僐儖巇條(僪儔僼僩10斉乯     1996/02/21
                                                     Modify 2007/01/08
 
                                                            H.Shirouzu
                                                  http://www.ipmsg.org
 ----------------------------------------------------------------------
 
-�T�v
-	TCP/UDP Port ���g�p�����A���b�Z�[�W����M�T�[�r�X�ł�
+奣梫
+	TCP/UDP Port 傪巊梡偟偨丄儊僢僙乕僕憲庴怣僒乕價僗偱偡
 
-����
-	TCP/IP ���g����� OS �̎�ނ�₢�܂���B�����̂���l�b�g���[�N
-	���i����юw��̃l�b�g���[�N�j�ŁA���I�ȃ����o�F�����ł��܂��B
-	���b�Z�[�W���M���̂��̂́AIP�ڑ����Ă���S�����o�ɑ΂��s���܂��B
+摿挜
+	TCP/IP 偑巊偊傟偽 OS 偺庬椶傪栤偄傑偣傫丅帺暘偺偄傞僱僢僩儚乕僋
+	撪乮偍傛傃巜掕偺僱僢僩儚乕僋乯偱丄摦揑側儊儞僶擣幆偑偱偒傑偡丅
+	儊僢僙乕僕憲怣偦偺傕偺偼丄IP愙懕偟偰偄傞慡儊儞僶偵懳偟峴偊傑偡丅
 
-�ڍ�
-	TCP/UDP �|�[�g(default:2425)���g�p���āA�ȉ��̕��@�ŏ������܂��B
-	�i���b�Z�[�W����M:UDP�A�t�@�C������M:TCP ���g�p�j
+徻嵶
+	TCP/UDP 億乕僩(default:2425)傪巊梡偟偰丄埲壓偺曽朄偱張棟偟傑偡丅
+	乮儊僢僙乕僕憲庴怣:UDP丄僼傽僀儖憲庴怣:TCP 傪巊梡乯
 
-  1.�R�}���h
+  1.僐儅儞僪
 
-     1) �R�}���h��� (command�ԍ�(32bit)�̂����A����8bit)
+     1) 僐儅儞僪庬椶 (command斣崋(32bit)偺偆偪丄壓埵8bit)
 
-	IPMSG_NOOPERATION	������
-	IPMSG_BR_ENTRY		�T�[�r�X�ɃG���g���i�N������Broadcast�j
-	IPMSG_BR_EXIT		�T�[�r�X���甲����i�I������Broadcast�j
-	IPMSG_ANSENTRY		�G���g����F���������Ƃ�ʒm
-	IPMSG_BR_ABSENCE	�s�݃��[�h�ύX
+	IPMSG_NOOPERATION	柍憖嶌
+	IPMSG_BR_ENTRY		僒乕價僗偵僄儞僩儕乮婲摦帪偵Broadcast乯
+	IPMSG_BR_EXIT		僒乕價僗偐傜敳偗傞乮廔椆帪偵Broadcast乯
+	IPMSG_ANSENTRY		僄儞僩儕傪擣幆偟偨偙偲傪捠抦
+	IPMSG_BR_ABSENCE	晄嵼儌乕僪曄峏
 
-	IPMSG_BR_ISGETLIST	�z�X�g���X�g���o�\�����o�̒T��
-	IPMSG_OKGETLIST		�z�X�g���X�g���o�\�ʒm
-	IPMSG_GETLIST		�z�X�g���X�g���o�v��
-	IPMSG_ANSLIST		�z�X�g���X�g���o
+	IPMSG_BR_ISGETLIST	儂僗僩儕僗僩憲弌壜擻儊儞僶偺扵嶕
+	IPMSG_OKGETLIST		儂僗僩儕僗僩憲弌壜擻捠抦
+	IPMSG_GETLIST		儂僗僩儕僗僩憲弌梫媮
+	IPMSG_ANSLIST		儂僗僩儕僗僩憲弌
 
-	IPMSG_SENDMSG		���b�Z�[�W�̑��M
-	IPMSG_RECVMSG		���b�Z�[�W�̎�M�m�F
+	IPMSG_SENDMSG		儊僢僙乕僕偺憲怣
+	IPMSG_RECVMSG		儊僢僙乕僕偺庴怣妋擣
 
-	IPMSG_READMSG		�����̊J���ʒm
-	IPMSG_DELMSG		�����j���ʒm
-	IPMSG_ANSREADMSG	�����̊J���m�F�i8 �ł���ǉ��j
+	IPMSG_READMSG		晻彂偺奐晻捠抦
+	IPMSG_DELMSG		晻彂攋婞捠抦
+	IPMSG_ANSREADMSG	晻彂偺奐晻妋擣乮8 斉偐傜捛壛乯
 
-	IPMSG_GETFILEDATA	�Y�t�t�@�C���v���iTCP �Ŏg�p�j
-	IPMSG_RELEASEFILES	�Y�t�t�@�C���j��
-	IPMSG_GETDIRFILES	�Y�t�K�w�t�@�C���v��
+	IPMSG_GETFILEDATA	揧晅僼傽僀儖梫媮乮TCP 偱巊梡乯
+	IPMSG_RELEASEFILES	揧晅僼傽僀儖攋婞
+	IPMSG_GETDIRFILES	揧晅奒憌僼傽僀儖梫媮
 
-	IPMSG_GETINFO		IPMSG�o�[�W�������擾
-	IPMSG_SENDINFO		IPMSG�o�[�W������񉞓�
+	IPMSG_GETINFO		IPMSG僶乕僕儑儞忣曬庢摼
+	IPMSG_SENDINFO		IPMSG僶乕僕儑儞忣曬墳摎
 
-	IPMSG_GETABSENCEINFO	�s�ݒʒm���擾
-	IPMSG_SENDABSENCEINFO	�s�ݒʒm������
+	IPMSG_GETABSENCEINFO	晄嵼捠抦暥庢摼
+	IPMSG_SENDABSENCEINFO	晄嵼捠抦暥墳摎
 
-	IPMSG_GETPUBKEY		RSA ���J���擾
-	IPMSG_ANSPUBKEY		RSA ���J������
+	IPMSG_GETPUBKEY		RSA 岞奐尞庢摼
+	IPMSG_ANSPUBKEY		RSA 岞奐尞墳摎
 
-     2) �I�v�V�����t���O��� (command�ԍ�(32bit)�̂����A���24bit)
+     2) 僆僾僔儑儞僼儔僌庬椶 (command斣崋(32bit)偺偆偪丄忋埵24bit)
 
-	IPMSG_ABSENCEOPT	�s�݃��[�h�i�����o�F���n�R�}���h�Ŏg�p�j
-	IPMSG_SERVEROPT		�T�[�o�[�i�\��j
-	IPMSG_DIALUPOPT		�����o�F���n�̃R�}���h���ʂɑ���Ԃ�
+	IPMSG_ABSENCEOPT	晄嵼儌乕僪乮儊儞僶擣幆宯僐儅儞僪偱巊梡乯
+	IPMSG_SERVEROPT		僒乕僶乕乮梊栺乯
+	IPMSG_DIALUPOPT		儊儞僶擣幆宯偺僐儅儞僪傪屄暿偵憲傝曉偡
 
-	IPMSG_SENDCHECKOPT	���M�`�F�b�N
-	IPMSG_SECRETOPT		����
-	IPMSG_READCHECKOPT	�����m�F�i8 �ł���ǉ��j
-	IPMSG_PASSWORDOPT	���O
-	IPMSG_BROADCASTOPT	�u���[�h�L���X�g�i����j
-	IPMSG_MULTICASTOPT	�}���`�L���X�g�i�����I���j
-	IPMSG_NEWMUTIOPT	�j���[�o�[�W�����}���`�L���X�g�i�\��j
-	IPMSG_AUTORETOPT	���������i�s���|���h�~�p�j
-	IPMSG_NOLOGOPT		���O�Ɏc���Ȃ��i���Ƃ𐄏��j
-	IPMSG_NOADDLISTOPT	BR_ENTRY���Ă��Ȃ��ꎞ�����o�ʒm
+	IPMSG_SENDCHECKOPT	憲怣僠僃僢僋
+	IPMSG_SECRETOPT		晻彂
+	IPMSG_READCHECKOPT	晻彂妋擣乮8 斉偐傜捛壛乯
+	IPMSG_PASSWORDOPT	忶慜
+	IPMSG_BROADCASTOPT	僽儘乕僪僉儍僗僩乮摨曬乯
+	IPMSG_MULTICASTOPT	儅儖僠僉儍僗僩乮暋悢慖戰乯
+	IPMSG_NEWMUTIOPT	僯儏乕僶乕僕儑儞儅儖僠僉儍僗僩乮梊栺乯
+	IPMSG_AUTORETOPT	帺摦墳摎乮僺儞億儞杊巭梡乯
+	IPMSG_NOLOGOPT		儘僌偵巆偝側偄乮偙偲傪悇彠乯
+	IPMSG_NOADDLISTOPT	BR_ENTRY偟偰偄側偄堦帪儊儞僶捠抦
 
-	IPMSG_FILEATTACHOPT	�t�@�C���Y�t
-	IPMSG_ENCRYPTOPT	�Í�
-	IPMSG_UTF8OPT		UTF-8���g�p
+	IPMSG_FILEATTACHOPT	僼傽僀儖揧晅
+	IPMSG_ENCRYPTOPT	埫崋
+	IPMSG_UTF8OPT		UTF-8傪巊梡
 
-	IPMSG_NOPOPUPOPT	�i�g�p���Ȃ��Ȃ�܂����j
-	IPMSG_RETRYOPT		�đ��t���O�iHOSTLIST �擾���Ɏg�p�j
+	IPMSG_NOPOPUPOPT	乮巊梡偟側偔側傝傑偟偨乯
+	IPMSG_RETRYOPT		嵞憲僼儔僌乮HOSTLIST 庢摼帪偵巊梡乯
 
-     3) �Í��g�����p�t���O (�g�����ɑg�ݍ��킹�� hex �\���Ŏg�p)
+     3) 埫崋奼挘晹梡僼儔僌 (奼挘晹偵慻傒崌傢偣傪 hex 昞尰偱巊梡)
 
 	IPMSG_RSA_512
 	IPMSG_RSA_1024
@@ -93,7 +93,7 @@
 	IPMSG_SIGN_MD5
 	IPMSG_SIGN_SHA1
 
-     4) �Y�t�t�@�C���g���p�t�@�C����ށifileattr����8bit�j
+     4) 揧晅僼傽僀儖奼挘梡僼傽僀儖庬椶乮fileattr壓埵8bit乯
 
 	IPMSG_FILE_REGULAR
 	IPMSG_FILE_DIR
@@ -104,7 +104,7 @@
 	IPMSG_FILE_FIFO
 	IPMSG_FILE_RESFORK
 
-     5) �Y�t�t�@�C���g���p�t�@�C�������ifileattr���24bit�j
+     5) 揧晅僼傽僀儖奼挘梡僼傽僀儖懏惈乮fileattr忋埵24bit乯
 
 	IPMSG_FILE_RONLYOPT
 	IPMSG_FILE_HIDDENOPT
@@ -112,7 +112,7 @@
 	IPMSG_FILE_ARCHIVEOPT
 	IPMSG_FILE_SYSTEMOPT
 
-     6) �Y�t�t�@�C���g���p�g���t�@�C������
+     6) 揧晅僼傽僀儖奼挘梡奼挘僼傽僀儖懏惈
 
 	IPMSG_FILE_UID
 	IPMSG_FILE_USERNAME
@@ -135,206 +135,206 @@
 	IPMSG_FILE_UNICODEFNAME
 
 
-  2.�R�}���h�t�H�[�}�b�g�i���ׂĕ�����Ƃ��ĕ\���j
+  2.僐儅儞僪僼僅乕儅僢僩乮偡傋偰暥帤楍偲偟偰昞尰乯
 
-     1) �R�}���h�i�t�H�[�}�b�g�o�[�W����1�j
+     1) 僐儅儞僪乮僼僅乕儅僢僩僶乕僕儑儞1乯
 
-	Ver(1) : Packet�ԍ� : ��User�� : ��Host�� : Command�ԍ� : �ǉ���
+	Ver(1) : Packet斣崋 : 帺User柤 : 帺Host柤 : Command斣崋 : 捛壛晹
 
-     2) ���݂̃R�}���h�t�H�[�}�b�g�ɂ�郁�b�Z�[�W�̑��M�������
+     2) 尰嵼偺僐儅儞僪僼僅乕儅僢僩偵傛傞儊僢僙乕僕偺憲怣暥帤楍椺
 
 	"1:100:shirouzu:jupiter:32:Hello"
 
 
-  3.�R�}���h�����T�v
+  3.僐儅儞僪張棟奣梫
 
-     1) �����o�F��
+     1) 儊儞僶擣幆
 
-	�N�����ɁAIPMSG_BR_ENTRY �R�}���h���u���[�h�L���X�g���A���ł�
-	�����オ���Ă��郁���o�ɁA�V�K�Q����m�点�܂��B
+	婲摦帪偵丄IPMSG_BR_ENTRY 僐儅儞僪傪僽儘乕僪僉儍僗僩偟丄偡偱偵
+	棫偪忋偑偭偰偄傞儊儞僶偵丄怴婯嶲壛傪抦傜偣傑偡丅
 
-	���̃u���[�h�L���X�g�ɂ��A���łɗ����オ���Ă��郁���o�́A
-	�����̑��M�惊�X�g�ɐV�K�Q�������o�̏���ǉ����܂��B����ɁA
-	IPMSG_ANSENTRY �R�}���h�����̐V�K�Q�������o�ɑ΂��A�ԐM���܂��B
+	偙偺僽儘乕僪僉儍僗僩偵傛傝丄偡偱偵棫偪忋偑偭偰偄傞儊儞僶偼丄
+	帺暘偺憲怣愭儕僗僩偵怴婯嶲壛儊儞僶偺忣曬傪捛壛偟傑偡丅偝傜偵丄
+	IPMSG_ANSENTRY 僐儅儞僪傪偦偺怴婯嶲壛儊儞僶偵懳偟丄曉怣偟傑偡丅
 
-	�V�K�Q�������o�́A���� IPMSG_ANSENTRY ����M���邱�Ƃɂ��A
-	���łɗ����オ���Ă���S�����o�̏��𓾂邱�Ƃ��ł��܂��B
-	���������AIP�p�P�b�g�������Ȃ�����́A�S�Ẵ����o�������
-	���M�惊�X�g��ێ��ł���Ƃ����킯�ł��B
+	怴婯嶲壛儊儞僶偼丄偙偺 IPMSG_ANSENTRY 傪庴怣偡傞偙偲偵傛傝丄
+	偡偱偵棫偪忋偑偭偰偄傞慡儊儞僶偺忣曬傪摼傞偙偲偑偱偒傑偡丅
+	偟偨偑偄丄IP僷働僢僩偑幐傢傟側偄尷傝偼丄慡偰偺儊儞僶偑摨堦偺
+	憲怣愭儕僗僩傪曐帩偱偒傞偲偄偆傢偗偱偡丅
 
-	�s�݃��[�h��j�b�N�l�[���̕ύX�Ȃǂ��A�����o�S���ɒʒm����ɂ́A
-	IPMSG_BR_ABSENCE ���u���[�h�L���X�g���܂��B�iIPMSG_BR_ENTRY ��
-	�Ⴂ�A�󂯎���������o�� IPMSG_ANSENTRY ��Ԃ��܂���j
+	晄嵼儌乕僪傗僯僢僋僱乕儉偺曄峏側偳傪丄儊儞僶慡堳偵捠抦偡傞偵偼丄
+	IPMSG_BR_ABSENCE 傪僽儘乕僪僉儍僗僩偟傑偡丅乮IPMSG_BR_ENTRY 偲
+	堘偄丄庴偗庢偭偨儊儞僶偼 IPMSG_ANSENTRY 傪曉偟傑偣傫乯
 
-	IPMSG_BR_ENTRY, IPMSG_ANSENTRY, IPMSG_BR_ABSENCE �R�}���h�ł́A
-	�s�݃��[�h�ɂ��킹�� IPMSG_ABSENCEOPT �𗧂ĂāA�R�}���h�̒ǉ�
-	���ɂ̓j�b�N�l�[�������܂��B�܂��A�_�C�A���A�b�v���[�U�ȂǁA
-	�l�b�g���[�N�w��̃u���[�h�L���X�g���͂��Ȃ������o�́A����ɁA
-	IPMSG_DIALUPOPT �𗧂Ă܂��B���̃I�v�V�����������Ă��郁���o��
-	�́A�����o�F���n�̃R�}���h���ʂɑ��o���܂��B
+	IPMSG_BR_ENTRY, IPMSG_ANSENTRY, IPMSG_BR_ABSENCE 僐儅儞僪偱偼丄
+	晄嵼儌乕僪偵偁傢偣偰 IPMSG_ABSENCEOPT 傪棫偰偰丄僐儅儞僪偺捛壛
+	晹偵偼僯僢僋僱乕儉傪擖傟傑偡丅傑偨丄僟僀傾儖傾僢僾儐乕僓側偳丄
+	僱僢僩儚乕僋巜掕偺僽儘乕僪僉儍僗僩偑撏偐側偄儊儞僶偼丄偝傜偵丄
+	IPMSG_DIALUPOPT 傪棫偰傑偡丅偙偺僆僾僔儑儞偑棫偭偰偄傞儊儞僶偵
+	偼丄儊儞僶擣幆宯偺僐儅儞僪傪屄暿偵憲弌偟傑偡丅
 
-	�i�O���[�v���g���ɂ��ājIPMSG_BR_ENTRY, IPMSG_BR_ABSENCE ��
-	�Q�R�}���h�ɂ����āA�]���̃R�}���h�t�H�[�}�b�g������ɑ�����(
-	'\0'�������)�O���[�v�������邱�Ƃɂ���āA�����̏���(�ݒ�)
-	����O���[�v����`���邱�Ƃ��ł��܂��B
+	乮僌儖乕僾壔奼挘偵偮偄偰乯IPMSG_BR_ENTRY, IPMSG_BR_ABSENCE 偺
+	俀僐儅儞僪偵偍偄偰丄廬棃偺僐儅儞僪僼僅乕儅僢僩暥帤楍偵懕偄偰(
+	'\0'傪嫴傫偱)僌儖乕僾柤傪擖傟傞偙偲偵傛偭偰丄帺暘偺強懏(愝掕)
+	偡傞僌儖乕僾柤傪揱偊傞偙偲偑偱偒傑偡丅
 
-     2) ���b�Z�[�W����M
+     2) 儊僢僙乕僕憲庴怣
 
-	���b�Z�[�W���M�ɂ� IPMSG_SENDMSG ���g�p���A�g�����Ƀ��b�Z�[�W
-	�{�̂����܂��B��M���́AIPMSG_SENDCHECKOPT �������Ă���ꍇ
-	�Ɍ���AIPMSG_RECVMSG ��Ԃ��܂��B�g�����ɂ͌��̃p�P�b�g�ԍ���
-	����܂��B
+	儊僢僙乕僕憲怣偵偼 IPMSG_SENDMSG 傪巊梡偟丄奼挘晹偵儊僢僙乕僕
+	杮懱傪擖傟傑偡丅庴怣懁偼丄IPMSG_SENDCHECKOPT 偑棫偭偰偄傞応崌
+	偵尷傝丄IPMSG_RECVMSG 傪曉偟傑偡丅奼挘晹偵偼尦偺僷働僢僩斣崋傪
+	擖傟傑偡丅
 
-	�u���[�h�L���X�g�ɂ�郁�b�Z�[�W���M�́AIPMSG_BOADCASTOPT ��
-	���Ă� IPMSG_SENDMSG ���g�p���܂��B�i�s�ݒʒm���Ȃǁj�������o
-	�����p�P�b�g�ɂ́A�s���|���h�~�̂��� IPMSG_AUTORETOPT ����
-	�܂��B�ǂ��炩�̃I�v�V�����������Ă���p�P�b�g�ɂ́A�m�F�����
-	�������o�p�P�b�g��Ԃ��܂���B
+	僽儘乕僪僉儍僗僩偵傛傞儊僢僙乕僕憲怣偼丄IPMSG_BOADCASTOPT 傪
+	棫偰偨 IPMSG_SENDMSG 傪巊梡偟傑偡丅乮晄嵼捠抦暥側偳乯帺摦憲弌
+	偝傟傞僷働僢僩偵偼丄僺儞億儞杊巭偺偨傔 IPMSG_AUTORETOPT 傪偮偗
+	傑偡丅偳偪傜偐偺僆僾僔儑儞偑棫偭偰偄傞僷働僢僩偵偼丄妋擣偍傛傃
+	帺摦憲弌僷働僢僩傪曉偟傑偣傫丅
 
-	�����ő��o����ɂ́AIPMSG_SECRETOPT �𗧂Ă��p�P�b�g�𑗏o����
-	���B���̏ꍇ�A��M���͊J������ IPMSG_READMSG �𑗏o���܂��B
-	�g�����ɂ͌��̃p�P�b�g�ԍ������܂��B
+	晻彂偱憲弌偡傞偵偼丄IPMSG_SECRETOPT 傪棫偰偨僷働僢僩傪憲弌偟傑
+	偡丅偙偺応崌丄庴怣懁偼奐晻帪偵 IPMSG_READMSG 傪憲弌偟傑偡丅
+	奼挘晹偵偼尦偺僷働僢僩斣崋傪擖傟傑偡丅
 
-	�i�ǉ����ꂽ�AIPMSG_NOADDLISTOPT �ɂ��āj
-	�����̑��M�惊�X�g�ɍڂ��Ă��Ȃ��z�X�g����� IPMSG_SENDMSG
-	�p�P�b�g�������ɂ́A
-	�E ���M��� IPMSG_BR_ENTRY �𑗐M���āA�z�X�g���݊m�F���s��
-	�E ���ڎ����̑��M�惊�X�g�ɉ�����
-	�̂����ꂩ�̏������s�����Ƃɂ��A�G���g���[�n�p�P�b�g��肱��
-	�����t�H���[����������l�����܂��B�������A�G���g���[���s���
-	���P�����b�Z�[�W���M�̏ꍇ�́A����͖]�܂����Ȃ�����ł��̂ŁA
-	���̏ꍇ�͎�M�z�X�g�ɂ��̂悤�ȃt�H���[��������Ȃ����Ƃ𐄏�
-	���邽�߁AIPMSG_SENDMSG �� IPMSG_NOADDLISTOPT �t���O�𗧂Ă܂��B
+	乮捛壛偝傟偨丄IPMSG_NOADDLISTOPT 偵偮偄偰乯
+	帺暘偺憲怣愭儕僗僩偵嵹偭偰偄側偄儂僗僩偐傜偺 IPMSG_SENDMSG
+	僷働僢僩摓拝帪偵偼丄
+	丒 憲怣愭偵 IPMSG_BR_ENTRY 傪憲怣偟偰丄儂僗僩懚嵼妋擣傪峴偆
+	丒 捈愙帺暘偺憲怣愭儕僗僩偵壛偊傞
+	偺偄偢傟偐偺張棟傪峴偆偙偲偵傛傝丄僄儞僩儕乕宯僷働僢僩庢傝偙傏
+	偟傪僼僅儘乕偡傞幚憰偑峫偊傜傟傑偡丅偟偐偟丄僄儞僩儕乕傪峴傢側
+	偄扨敪儊僢僙乕僕憲怣偺応崌偼丄偙傟偼朷傑偟偔側偄摦嶌偱偡偺偱丄
+	偙偺応崌偼庴怣儂僗僩偵偦偺傛偆側僼僅儘乕摦嶌傪偟側偄偙偲傪悇彠
+	偡傞偨傔丄IPMSG_SENDMSG 偵 IPMSG_NOADDLISTOPT 僼儔僌傪棫偰傑偡丅
 
-	�i8�łŒǉ����ꂽ�AIPMSG_READCHECKOPT �ɂ��āj
-	IPMSG_READMSG �ɁAIPMSG_READCHECKOPT �����Ă����ꍇ�A���x�A
-	IPMSG_SENDMSG �ɂ����� IPMSG_SENDCHECKOPT �̂悤�ɏ������܂��B
-	�������A�ԐM�ɂ́AIPMSG_RECVMSG �ł͂Ȃ��AIPMSG_ANSREADMSG
-	���g�p���܂��B
+	乮8斉偱捛壛偝傟偨丄IPMSG_READCHECKOPT 偵偮偄偰乯
+	IPMSG_READMSG 偵丄IPMSG_READCHECKOPT 偑偮偄偰偄偨応崌丄挌搙丄
+	IPMSG_SENDMSG 偵偍偗傞 IPMSG_SENDCHECKOPT 偺傛偆偵張棟偟傑偡丅
+	偨偩偟丄曉怣偵偼丄IPMSG_RECVMSG 偱偼側偔丄IPMSG_ANSREADMSG
+	傪巊梡偟傑偡丅
 
-     3) ���b�Z�[�W����M�|�Í����g���i9�łŒǉ��j
+     3) 儊僢僙乕僕憲庴怣亅埫崋壔奼挘乮9斉偱捛壛乯
 
-	���J��(RSA)�Ƌ��ʌ�(RC2/Blowfish)��g�ݍ��킹�Ď������܂��B
-	�i�Í��֘A�̊g�����͂��ׂāAhex �t�H�[�}�b�g�ŕ\���܂��j
+	岞奐尞(RSA)偲嫟捠尞(RC2/Blowfish)傪慻傒崌傢偣偰幚尰偟傑偡丅
+	乮埫崋娭楢偺奼挘晹偼偡傋偰丄hex 僼僅乕儅僢僩偱昞偟傑偡乯
 
-	�i���J���擾�j�܂���M���� IPMSG_GETPUBKEY �𑗐M���܂��B����
-	���� IPMSG_ANSPUBKEY ���󂯎�邱�Ƃɂ��A���葤 RSA ���J��
-	�𓾂܂��BIPMSG_GETPUBKEY/IPMSG_ANSPUBKEY �Ƃ��ɁA�g�����̍ŏ�
-	�Ɏ��z�X�g�̈Í��Ή��\�́iIPMSG_RSA_1024 ���j���t���O�� OR ��
-	�\�����l�����܂��B
-	����ɁAIPMSG_ANSPUBKEY �ł�':'������ŁA���J���� EE-NNNNNN
-	�iE=�w���AN=�@�j�Ƃ����`�����܂��BE �� N �̊Ԃɂ� '-' ��
-	����āA��؂�ɂ��܂��B
-	�Ȃ��A�Q�x�ڈȍ~�̑��M���ɂ́A���J������шÍ��Ή��\�͂��L��
-	���邱�Ƃɂ��A���̃V�[�P���X���ȗ����邱�Ƃ��ł��܂��B
+	乮岞奐尞庢摼乯傑偢庴怣懁偵 IPMSG_GETPUBKEY 傪憲怣偟傑偡丅憡庤
+	偐傜 IPMSG_ANSPUBKEY 傪庴偗庢傞偙偲偵傛傝丄憡庤懁 RSA 岞奐尞
+	傪摼傑偡丅IPMSG_GETPUBKEY/IPMSG_ANSPUBKEY 偲傕偵丄奼挘晹偺嵟弶
+	偵帺儂僗僩偺埫崋懳墳擻椡乮IPMSG_RSA_1024 摍乯傪僼儔僌偺 OR 偱
+	昞偟偨抣傪擖傟傑偡丅
+	偝傜偵丄IPMSG_ANSPUBKEY 偱偼':'傪嫴傫偱丄岞奐尞傪 EE-NNNNNN
+	乮E=巜悢丄N=朄乯偲偄偆宍傪擖傟傑偡丅E 偲 N 偺娫偵偼 '-' 傪
+	擖傟偰丄嬫愗傝偵偟傑偡丅
+	側偍丄俀搙栚埲崀偺憲怣帪偵偼丄岞奐尞偍傛傃埫崋懳墳擻椡傪婰壇
+	偡傞偙偲偵傛傝丄偙偺僔乕働儞僗傪徣棯偡傞偙偲偑偱偒傑偡丅
 
-	�i���b�Z�[�W�Í����j���M���́A���҂ŃT�|�[�g���Ă��鋤�ʌ�
-	��ނ�I��ŃZ�b�V�����p���ʌ������A���̋��ʌ���p���Ė{��
-	���Í������܂��B����ɂ��̋��ʌ��𑊎葤���J���ňÍ������܂��B
+	乮儊僢僙乕僕埫崋壔乯憲怣懁偼丄椉幰偱僒億乕僩偟偰偄傞嫟捠尞
+	庬椶傪慖傫偱僙僢僔儑儞梡嫟捠尞傪嶌傝丄偦偺嫟捠尞傪梡偄偰杮暥
+	傪埫崋壔偟傑偡丅偝傜偵偦偺嫟捠尞傪憡庤懁岞奐尞偱埫崋壔偟傑偡丅
 
-	�i�Í����b�Z�[�W���M�jIPMSG_SENDMSG �� IPMSG_ENCRYPTOPT ��
-	�𗧂ĂāA�g�����̍ŏ��ɁA�Í����Ɏg�p�������J��/���ʌ����
-	�̑g�ݍ��킹�� OR �ŕ\�������l�����A':'���͂���Ō��J����
-	�Í����������ʌ������A�����':'���͂���ŋ��ʌ��ňÍ�����
-	���{�������܂��B���҂� IPMSG_SIGN_XXX ���T�|�[�g���Ă���
-	�ꍇ�́A�����':'���͂���ŏ����𑱂��܂��B
+	乮埫崋儊僢僙乕僕憲怣乯IPMSG_SENDMSG 偵 IPMSG_ENCRYPTOPT 傪
+	傪棫偰偰丄奼挘晹偺嵟弶偵丄埫崋壔偵巊梡偟偨岞奐尞/嫟捠尞庬椶
+	偺慻傒崌傢偣傪 OR 偱昞尰偟偨抣傪擖傟丄':'傪偼偝傫偱岞奐尞偱
+	埫崋壔偟偨嫟捠尞傪擖傟丄偝傜偵':'傪偼偝傫偱嫟捠尞偱埫崋壔偟
+	偨杮暥傪擖傟傑偡丅椉幰偑 IPMSG_SIGN_XXX 傪僒億乕僩偟偰偄傞
+	応崌偼丄偝傜偵':'傪偼偝傫偱彁柤傪懕偗傑偡丅
 
-	�Ȃ��A�G���R�[�h�E�p�f�B���O�����ɂ��ẮARSA ���� PKCS#1
-	ECB�ARC2/blowfish ���ʌ��� PKCS#5 CBC ���g�p���܂��B(IV=0)
-	�܂��AEntry �n�p�P�b�g�ɂ� IPMSG_ENCRYPTOPT �𗧂āA�Í��@�\
-	���T�|�[�g�\�ł��邱�Ƃ�\�����܂��B
+	側偍丄僄儞僐乕僪丒僷僨傿儞僌曽幃偵偮偄偰偼丄RSA 尞偼 PKCS#1
+	ECB丄RC2/blowfish 嫟捠尞偼 PKCS#5 CBC 傪巊梡偟傑偡丅(IV=0)
+	傑偨丄Entry 宯僷働僢僩偵偼 IPMSG_ENCRYPTOPT 傪棫偰丄埫崋婡擻
+	傪僒億乕僩壜擻偱偁傞偙偲傪昞柧偟傑偡丅
 
-     4) �t�@�C���Y�t�g���i9�łŒǉ��j
+     4) 僼傽僀儖揧晅奼挘乮9斉偱捛壛乯
 
-	�t�@�C���Y�t�i�_�E�����[�h���j�ʒm����ɂ́AIPMSG_SENDMSG
-	�� IPMSG_FILEATTACHOPT �𗧂Ă����b�Z�[�W�𑗐M���܂��B
-	���̍ہA�ʏ�ior �Í��j���b�Z�[�W�ɑ����āA'\0'���͂���ŁA
-	�Y�t�i�_�E�����[�h���j�t�@�C������񋓂��܂��B
+	僼傽僀儖揧晅乮僟僂儞儘乕僪嫋壜乯捠抦偡傞偵偼丄IPMSG_SENDMSG
+	偵 IPMSG_FILEATTACHOPT 傪棫偰偨儊僢僙乕僕傪憲怣偟傑偡丅
+	偦偺嵺丄捠忢乮or 埫崋乯儊僢僙乕僕偵懕偗偰丄'\0'傪偼偝傫偱丄
+	揧晅乮僟僂儞儘乕僪嫋壜乯僼傽僀儖忣曬傪楍嫇偟傑偡丅
 
 	fileID:filename:size:mtime:fileattr[:extend-attr=val1
 	[,val2...][:extend-attr2=...]]:\a:fileID...
-	(�Ȃ��Asize, mtime, fileattr �� hex �ŕ\�����܂��B
-	 filename��':'������ꍇ�A"::"�ŃG�X�P�[�v���܂�)
+	(側偍丄size, mtime, fileattr 偼 hex 偱昞尰偟傑偡丅
+	 filename偵':'偑偁傞応崌丄"::"偱僄僗働乕僾偟傑偡)
 
-	��M�����Y�t�t�@�C�����_�E�����[�h�������ꍇ�A���M��UDP�|�[�g
-	�Ɠ����ԍ���TCP�|�[�g�ɑ΂��āAIPMSG_GETFILEDATA �R�}���h���g
-	���A�g������ packetID:fileID:offset �����āA�f�[�^���M�v��
-	�p�P�b�g���o���܂��B�i���ׂ�hex�j
-	�Y�t�������̃��N�G�X�g����M���āA���M�v���𐳂����ƔF�߂�ƁA
-	���̒ʐM�H�ɊY���t�@�C���̃f�[�^�𗬂��܂��i�t�H�[�}�b�g�Ȃ��j
+	庴怣懁偑揧晅僼傽僀儖傪僟僂儞儘乕僪偟偨偄応崌丄憲怣尦UDP億乕僩
+	偲摨偠斣崋偺TCP億乕僩偵懳偟偰丄IPMSG_GETFILEDATA 僐儅儞僪傪巊
+	偄丄奼挘晹偵 packetID:fileID:offset 傪擖傟偰丄僨乕僞憲怣梫媮
+	僷働僢僩傪弌偟傑偡丅乮偡傋偰hex乯
+	揧晅懁偑偦偺儕僋僄僗僩傪庴怣偟偰丄憲怣梫媮傪惓偟偄偲擣傔傞偲丄
+	偦偺捠怣楬偵奩摉僼傽僀儖偺僨乕僞傪棳偟傑偡乮僼僅乕儅僢僩側偟乯
 
-	��M�����K�w�Y�t�t�@�C�����_�E�����[�h�������ꍇ�́A�R�}���h
-	�� IPMSG_GETDIRFILES ���g���A�g������ packetID:fileID ������
-	�f�[�^���M�v���p�P�b�g���o���܂��B�i���ׂ�hex�j
+	庴怣懁偑奒憌揧晅僼傽僀儖傪僟僂儞儘乕僪偟偨偄応崌偼丄僐儅儞僪
+	偵 IPMSG_GETDIRFILES 傪巊偄丄奼挘晹偵 packetID:fileID 傪擖傟偰
+	僨乕僞憲怣梫媮僷働僢僩傪弌偟傑偡丅乮偡傋偰hex乯
 
-	�f�[�^���M���́A�ȉ��̃t�H�[�}�b�g�ŊK�w�f�[�^�𗬂��܂��B
+	僨乕僞憲怣懁偼丄埲壓偺僼僅乕儅僢僩偱奒憌僨乕僞傪棳偟傑偡丅
 	header-size:filename:file-size:fileattr[:extend-attr=val1
 	[,val2...][:extend-attr2=...]]:contents-data
-	����headersize:����filename...
-	�ifilename �� contetns-data �ȊO�͂��ׂ� hex�j
+	師偺headersize:師偺filename...
+	乮filename 偲 contetns-data 埲奜偼偡傋偰 hex乯
 
-	header-size �� header-size �̐擪���� contents-data �̒��O��
-	':'�܂ł̃T�C�Y������킵�܂��Bextend-attr �͏ȗ�������
-	���݉\�Ȋg�������ŁA'='�őΉ�����f�[�^�l�����܂��B
+	header-size 偼 header-size 偺愭摢偐傜 contents-data 偺捈慜偺
+	':'傑偱偺僒僀僘傪偁傜傢偟傑偡丅extend-attr 偼徣棯壜偐偮暋悢
+	懚嵼壜擻側奼挘懏惈偱丄'='偱懳墳偡傞僨乕僞抣傪擖傟傑偡丅
 
-	fileattr �� IPMSG_FILE_DIR �̏ꍇ�A�����I�ɂ��̃f�B���N�g����
-	��������ԂƂ݂Ȃ��āA�㑱�̃t�@�C����񂪑����܂��B
+	fileattr 偑 IPMSG_FILE_DIR 偺応崌丄帺摦揑偵偦偺僨傿儗僋僩儕偵
+	愽偭偨忬懺偲傒側偟偰丄屻懕偺僼傽僀儖忣曬偑懕偒傑偡丅
 
-	fileattr �� IPMSG_FILE_RETPARENT �̏ꍇ�A�e�f�B���N�g���ɖ�
-	�邱�Ƃ�\���A�t�@�C�����͏��"."�ł��B���̂Ƃ��̑����l�́A
-	�e�f�B���N�g���ɖ߂�O�́A���݃f�B���N�g���̏���\���܂��B
+	fileattr 偑 IPMSG_FILE_RETPARENT 偺応崌丄恊僨傿儗僋僩儕偵栠
+	傞偙偲傪昞偟丄僼傽僀儖柤偼忢偵"."偱偡丅偙偺偲偒偺懏惈抣偼丄
+	恊僨傿儗僋僩儕偵栠傞慜偺丄尰嵼僨傿儗僋僩儕偺忣曬傪昞偟傑偡丅
 
-	���M�͓Y�t�f�B���N�g�����̂���J�n���A�Ō�ɓY�t�f�B���N�g��
-	�ɖ߂� IPMSG_FILE_RETPARENT ���𑗐M���ďI����`���܂��B
+	憲怣偼揧晅僨傿儗僋僩儕帺懱偐傜奐巒偟丄嵟屻偵揧晅僨傿儗僋僩儕
+	偵栠傞 IPMSG_FILE_RETPARENT 忣曬傪憲怣偟偰廔椆傪揱偊傑偡丅
 
-	�Ȃ��AEntry �n�p�P�b�g�� IPMSG_FILEATTACHOPT �𗧂āA�t�@�C��
-	�Y�t���T�|�[�g�\�ł��邱�Ƃ�\�����܂��B
+	側偍丄Entry 宯僷働僢僩偵 IPMSG_FILEATTACHOPT 傪棫偰丄僼傽僀儖
+	揧晅傪僒億乕僩壜擻偱偁傞偙偲傪昞柧偟傑偡丅
 
-     5) ���̑��̃R�}���h
+     5) 偦偺懠偺僐儅儞僪
 
-	���̃����o�̃o�[�W�������擾����ɂ́AIPMSG_GETINFO �R�}���h
-	�𑗂�܂��B��M���͊g�����Ƀo�[�W�������̕������ݒ肵��
-	IPMSG_SENDINFO �𑗂�Ԃ��܂��B
+	懠偺儊儞僶偺僶乕僕儑儞傪庢摼偡傞偵偼丄IPMSG_GETINFO 僐儅儞僪
+	傪憲傝傑偡丅庴怣懁偼奼挘晹偵僶乕僕儑儞忣曬偺暥帤楍傪愝掕偟偨
+	IPMSG_SENDINFO 傪憲傝曉偟傑偡丅
 
-	�s�݃��[�h�����o�̕s�ݒʒm�����擾����ɂ́AIPMSG_GETABSENCEINFO
-	�R�}���h�𑗂�܂��B��M���́A�s�݃��[�h���Ȃ�s�ݒʒm����ݒ�
-	�����AIPMSG_SENDABSENCEINFO �𑗂�Ԃ��܂��B�s�݃��[�h���łȂ�
-	�ꍇ�A�K���ȕ�����i"Not absence mode"�Ȃǁj�𑗂�Ԃ��܂��B
+	晄嵼儌乕僪儊儞僶偺晄嵼捠抦暥傪庢摼偡傞偵偼丄IPMSG_GETABSENCEINFO
+	僐儅儞僪傪憲傝傑偡丅庴怣懁偼丄晄嵼儌乕僪拞側傜晄嵼捠抦暥傪愝掕
+	偟偨丄IPMSG_SENDABSENCEINFO 傪憲傝曉偟傑偡丅晄嵼儌乕僪拞偱側偄
+	応崌丄揔摉側暥帤楍乮"Not absence mode"側偳乯傪憲傝曉偟傑偡丅
 
-     6) �m�F�E���g���C
+     6) 妋擣丒儕僩儔僀
 
-	��莞�Ԉȓ��Ɋm�F�p�P�b�g�iIPMSG_SENDMSG �ɑ΂���A
-	IPMSG_RECVMSG �Ȃǁj���󂯎��Ȃ������ꍇ�A����̃p�P�b�g��
-	�đ��o���܂��B���g���C�̉񐔁E�Ԋu�ɂ��ẮA�����ˑ��ł��B
-
-
-  4. ���̑�
-
-     1) ���s�ɂ���
-
-	���o���b�Z�[�W���̉��s�����́AUNIX�`���ɓ��ꂵ�܂�('0x0a')�B
-	�K�v�ɉ����āA�ϊ����s���Ă��������B
-
-     2) �f���~�^
-
-	�f���~�^��':'���g���Ă���֌W��A���[�U���A�z�X�g���̈�ɂ́A
-	':'���܂ޖ��O�́A�g���܂���B����A���z�X�g����':'���܂�ł���
-	�ꍇ�A���̕���(���Ƃ���';')�Ȃǂɒu�������Ďg�p���Ă��������B
-	�Ƃ��ɕK�v��������Ƃ͎v���܂��񂪁A�������R������΁A�G�X�P�[
-	�v�V�[�P���X�ł��l�������Ǝv���܂��B
-
-     3) �����R�[�h
-
-	IPMSG_UTF8OPT ��t�^���Ȃ��ꍇ�A�����R�[�h�́ACP932 �̎g�p��
-	�z�肵�Ă��܂��B
+	堦掕帪娫埲撪偵妋擣僷働僢僩乮IPMSG_SENDMSG 偵懳偡傞丄
+	IPMSG_RECVMSG 側偳乯偑庴偗庢傟側偐偭偨応崌丄摨堦偺僷働僢僩傪
+	嵞憲弌偟傑偡丅儕僩儔僀偺夞悢丒娫妘偵偮偄偰偼丄幚憰埶懚偱偡丅
 
 
-  5. �A����
+  4. 偦偺懠
 
-	http://www.ipmsg.org �ɋL�ڂ��Ă��܂��B
+     1) 夵峴偵偮偄偰
+
+	憲弌儊僢僙乕僕撪偺夵峴暥帤偼丄UNIX宍幃偵摑堦偟傑偡('0x0a')丅
+	昁梫偵墳偠偰丄曄姺傪峴偭偰偔偩偝偄丅
+
+     2) 僨儕儈僞
+
+	僨儕儈僞偵':'傪巊偭偰偄傞娭學忋丄儐乕僓柤丄儂僗僩柤椞堟偵偼丄
+	':'傪娷傓柤慜偼丄巊偊傑偣傫丅枩堦丄帺儂僗僩柤偑':'傪娷傫偱偄傞
+	応崌丄懠偺暥帤(偨偲偊偽';')側偳偵抲偒姺偊偰巊梡偟偰偔偩偝偄丅
+	偲偔偵昁梫惈偑偁傞偲偼巚偊傑偣傫偑丄壗偐棟桼偑偁傟偽丄僄僗働乕
+	僾僔乕働儞僗偱傕峫偊偨偄偲巚偄傑偡丅
+
+     3) 暥帤僐乕僪
+
+	IPMSG_UTF8OPT 傪晅梌偟側偄応崌丄暥帤僐乕僪偼丄CP932 偺巊梡傪
+	憐掕偟偰偄傑偡丅
 
 
-���L
-	�R�}���h�R�[�h�́Aipmsg.h���Q�Ƃ��Ă��������B
-	�������ӌ��E��Ă�����܂�����A���񂹂��������B
+  5. 楢棈愭
+
+	http://www.ipmsg.org 偵婰嵹偟偰偄傑偡丅
+
+
+晬婰
+	僐儅儞僪僐乕僪偼丄ipmsg.h傪嶲徠偟偰偔偩偝偄丅
+	壗偐偛堄尒丒採埬偑偁傝傑偟偨傜丄偍婑偣偔偩偝偄丅
 
